@@ -1,39 +1,41 @@
-🧺 Doctor Appointment Scheduler
+# 🧺 Doctor Appointment Scheduler
 
 A full-stack web application designed to streamline doctor appointment scheduling in clinics. It enables patients to book, manage, and track appointments online, while giving administrators complete control over clinic scheduling workflows.
 
+---
 
-📌 Overview
+## 📌 Overview
 
 Traditional clinic appointment systems rely on walk-ins or phone calls—often resulting in time conflicts, inefficiencies, and long queues. This Doctor Appointment Scheduler digitizes the entire process, offering an intuitive and secure web platform for both patients and administrators.
 
+---
 
-Features
+## 🚀 Features
 
-👤 Patient
+### 👤 Patient
 
 * Register and manage profile
 * Secure login and logout
 * View available doctors and time slots
 * Book, view, and cancel appointments
 
- 🛠️ Admin
+### 🛠️ Admin
 
 * Secure login
 * Monitor all appointments
 * Approve, cancel, or mark appointments as completed
 * View and manage patient details
 
- 🌐 System-Wide
+### 🌐 System-Wide
 
 * Time slot validation to prevent double-booking
 * Session-based authentication and role-based access
 * Clean UI with responsive design
 * Secure password hashing and form validation
 
+---
 
-
- 🧰 Tech Stack
+## 🧰 Tech Stack
 
 | Component       | Technology             |
 | --------------- | ---------------------- |
@@ -43,19 +45,19 @@ Features
 | Server          | XAMPP (Apache + MySQL) |
 | Version Control | Git, GitHub            |
 
+---
 
+## 🧱 Database Design
 
- 🧱 Database Design
+### 🔗 Entity Relationship
 
-# 🔗 Entity Relationship
-
- **Entities**: `Patient`, `Doctor`, `Appointment`
- One-to-many relationships:
+* **Entities**: `Patient`, `Doctor`, `Appointment`
+* One-to-many relationships:
 
   * A patient can have multiple appointments
   * Each appointment is linked to one doctor
 
- 📘 Schema Tables
+### 📘 Schema Tables
 
 * `patients`
 * `doctors`
@@ -65,9 +67,9 @@ Features
 
 Designed using normalized schema with primary and foreign key constraints for data integrity.
 
+---
 
-
- 💽 UI Snapshots (Add Screenshots Here)
+## 💽 UI Snapshots (Add Screenshots Here)
 
 * Home Page
 * Patient Registration & Login
@@ -78,30 +80,31 @@ Designed using normalized schema with primary and foreign key constraints for da
 
 👉 *You can place screenshots inside a `screenshots/` folder and link them here for better presentation.*
 
+---
 
- ✅ Functional Requirements
+## ✅ Functional Requirements
 
- Patient
+### Patient
 
 * Register and login
 * Browse doctors and available slots
 * Book and cancel appointments
 
- Admin
+### Admin
 
 * View and manage all appointments
 * Approve/cancel/complete bookings
 * Access patient info
 
- System-wide
+### System-wide
 
 * Time slot conflict handling
 * Authentication and session control
 * CRUD operations on all entities
 
+---
 
-
- 📀 Non-Functional Requirements
+## 📀 Non-Functional Requirements
 
 * **Usability**: Clean and responsive interface for all screen sizes
 * **Security**: Password hashing, session-based access, role separation
@@ -109,9 +112,9 @@ Designed using normalized schema with primary and foreign key constraints for da
 * **Scalability**: Modular and maintainable codebase for future expansion
 * **Compatibility**: Works on all major browsers (Chrome, Firefox, Edge, Safari)
 
+---
 
-
- 🔮 Future Enhancements
+## 🔮 Future Enhancements
 
 * 🧑‍⚕️ Doctor login and self-scheduling interface
 * 📩 Email/SMS notifications for appointments
@@ -121,7 +124,7 @@ Designed using normalized schema with primary and foreign key constraints for da
 
 ---
 
- 💡 How to Run Locally
+## 💡 How to Run Locally
 
 1. Clone the repository:
 
@@ -137,9 +140,9 @@ Designed using normalized schema with primary and foreign key constraints for da
    http://localhost/DoctorAppointmentScheduler
    ```
 
+---
 
-
- 📚 References
+## 📚 References
 
 * [PHP Documentation](https://www.php.net/docs.php)
 * [MySQL Documentation](https://dev.mysql.com/doc/)
@@ -147,9 +150,9 @@ Designed using normalized schema with primary and foreign key constraints for da
 * [GeeksforGeeks](https://www.geeksforgeeks.org/)
 * [MDN Web Docs](https://developer.mozilla.org/)
 
+---
 
-
- 📝 License & Credits
+## 📝 License & Credits
 
 This project is developed and maintained by **Varun Kumar S**.
 
@@ -160,4 +163,4 @@ You are free to use and modify this project **for learning or academic purposes 
 
 If you use or build upon this project, a mention or link to this repository is appreciated.
 
-
+---
